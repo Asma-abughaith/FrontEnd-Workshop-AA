@@ -1,0 +1,15 @@
+#list-head{
+    background-color: rgb(89, 226, 181);
+}
+
+#list{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+}
+.check:checked ~ .value {   
+    text-decoration: line-through;
+ }
